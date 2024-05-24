@@ -6,17 +6,5 @@
 }
 
 body {
-    background-color: var(--cor-de-fundo);
-    color: var(--branco-principal);
-}
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-.principal {
-    background-image: url("HBO Max.png");
-    background-repeat: no-repeat;
-    background-size: contain;
+     background-repeat: var(--cor-de-fundo);
 }
