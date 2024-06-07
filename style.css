@@ -1,8 +1,8 @@
 :root {
     --branco-principal: #000000;
-    --cinza-secundario: #C0C0C0;
-    --botao-azul: #167BF7;
-    --cor-de-fundo: #FFFFFF;
+    --cinza-secundario: #c0c0c0;
+    --botao-azul: #10596b;
+    --cor-de-fundo: #ecf0f5;
 }
 
 body {
@@ -10,25 +10,17 @@ body {
     color: var(--branco-principal);
 }
 
-* {
+*{ 
     margin: 0;
     padding: 0;
 }
 
-.principal {
-    background-image: url("img/Background.png");
-    background-repeat: no-repeat;
-    background-size: contain;
+.logo img{
+    width: 45%;
+    height:17% ;
+
 }
 
-.container {
-    height: 100vh;
-}
-
-.container__botao {
-    background-color: var(--botao-azul);
-    border-radius: 5px;
-    padding: 1em;
-    color: var(--branco-principal);
-    display: block;
+.escrita{
+    width: 30%;
 }
